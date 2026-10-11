@@ -1,0 +1,13 @@
+{
+  "name": "Nombre Tienda | Librería educativa",
+  "short_name": "Nombre Tienda",
+  "description": "Catálogo de libros educativos para primaria.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f7fc",
+  "theme_color": "#2457c5",
+  "lang": "es-MX",
+  "icons": []
+}

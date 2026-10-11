@@ -1,0 +1,22 @@
+CATÁLOGO DE LIBRERÍA — GitHub Pages
+
+Archivos:
+- index.html: catálogo completo, categorías, buscador y pedidos por WhatsApp.
+- manifest.json: configuración básica para instalación como PWA.
+
+PUBLICAR EN GITHUB PAGES:
+1. Crea un repositorio en GitHub.
+2. Sube index.html y manifest.json a la raíz del repositorio.
+3. En Settings > Pages, activa la publicación desde la rama principal (main), carpeta /(root).
+4. Abre el enlace de GitHub Pages que te entregue GitHub.
+
+PERSONALIZAR:
+- Cambia "Nombre Tienda" en index.html y manifest.json.
+- Los libros de ejemplo están en index.html, dentro de const products = [...].
+- El teléfono está en la variable whatsappNumber. Está preparado como 525632553113 (52 + número de México).
+- Edita también el texto del pie de página si cambias el nombre de la tienda.
+
+NOTAS:
+- Los títulos, descripciones y precios son ejemplos provisionales.
+- El manifest no incluye iconos todavía; puedes añadir un icono cuando tengas el logotipo.
+- Para que se ofrezca la instalación PWA de forma más completa, conviene agregar iconos y un service worker.
